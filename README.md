@@ -1,8 +1,10 @@
+# What's in the folder
 We separate this project into two parts, **frontend** and **backend**.
 
+## frontend
 In the **frontend** folder, you could see all the source codes in src folder:
 
-+-- **api**: index includes a factory code gathering all the api methods; interceptor controls user's permission to get data<br/>
++-- **api**: index includes a factory gathering all the api methods; interceptor controls user's permission to get data<br/>
 +-- **components**: here are components shared by views<br/>
 +-- **dummies**: here are mocked data which were used when api hadn't finished<br/>
 +-- **layout**: here are layouts designed for two different roles<br/>
@@ -11,6 +13,7 @@ In the **frontend** folder, you could see all the source codes in src folder:
 +-- **views**: here are views user sees in the website<br/>
 App.vue: this is the top layer of all the views<br/>
 
+## backend
 In the **backend** folder, here are the content intro below:
 
 +-- **config**: here is all database config settings<br/>
